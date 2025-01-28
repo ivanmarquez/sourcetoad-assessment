@@ -1,0 +1,17 @@
+{
+    "name": "shop/app",
+    "description": "A simple shop application",
+    "authors": [
+        {
+            "name": "Ivan Marquez",
+            "email": "ivan.marquez@live.com.mx"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+    "minimum-stability": "dev"
+}

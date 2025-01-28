@@ -1,0 +1,64 @@
+# Ignore directories
+/vendor/
+/node_modules/
+/.env
+
+# Composer dependencies
+/composer.lock
+
+# Cache files
+*.log
+*.cache
+
+# IDE specific files
+/.vscode/
+/.idea/
+/*.iml
+
+# OS-specific files
+/.DS_Store
+/Thumbs.db
+
+# PHPStorm files
+/*.iml
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# User-uploaded content
+/uploads/
+
+# Backup files
+/*.bak
+/*.swp
+*.tmp
+*.temp
+
+# Ignore coverage reports
+coverage/
+*.cov
+coverage.xml
+
+# Ignore build output
+/build/
+/dist/
+/out/
+
+# Ignore Laravel specific files
+Homestead.yaml
+Homestead.json
+.env.testing
+
+# Ignore Symfony specific files
+/var/
+/config/jwt/
+/public/bundles/
+
+# Ignore Laravel Mix specific files
+/public/hot
+/public/storage
+/storage/*.key
+
+# Ignore local environment files
+.env.local
+.env.*.local
